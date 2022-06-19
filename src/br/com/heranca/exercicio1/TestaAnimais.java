@@ -16,11 +16,14 @@ public class TestaAnimais {
 		pocoto.correr();
 		pocoto.emitirSom();
 		
-		BichoPreguica lazy = new BichoPreguica();
+		/*BichoPreguica lazy = new BichoPreguica();
 		lazy.nome = "Lazy";
 		lazy.idade= 25;
 		lazy.emitirSom();
-		lazy.escalar();
+		lazy.escalar(); */
+		
+		Animal lazy = new BichoPreguica();
+		lazy.emitirSom();
 		
 
 	}
